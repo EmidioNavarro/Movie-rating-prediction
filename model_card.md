@@ -1,8 +1,8 @@
 # Data:
 
-**Inputs:**
-
 Instance - Number of valid samples**
+
+**Inputs:**
 
 - color                        - 5024
 - director_name                - 4939
