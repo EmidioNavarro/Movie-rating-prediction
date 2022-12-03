@@ -1,6 +1,8 @@
-# Inputs:
+# Data:
 
-**Instance - Number of valid samples**
+**Inputs:**
+
+Instance - Number of valid samples**
 
 - color                        - 5024
 - director_name                - 4939
@@ -30,7 +32,7 @@
 - aspect_ratio                 - 4714
 - movie_facebook_likes         - 5043
 
-## Outputs:
+**Outputs:**
 
 - imdb_score                   - 5043
 
