@@ -54,7 +54,7 @@ The data was acquired from two public sources; IMDB and Facebook.
 
 The dataset can be used by researchers looking to advance their understanding of how multiple variables can affect the way films are critically received by a global audience.
 
-There seems to be an dubious hierarchisation of actors in the following instances: "actor_1_facebook_likes", "actor_2_facebook_likes", "actor_3_facebook_likes", "actor_1_name", "actor_2_name", "actor_3_name". It is not clear what the numbers mean here, whether they are ordering the actors by popularity (as perceived by them), if alphabetically, or if by another method. 
+There seems to be a dubious ranking of actors in the following instances: "actor_1_facebook_likes", "actor_2_facebook_likes", "actor_3_facebook_likes", "actor_1_name", "actor_2_name", "actor_3_name". It is not clear what the numbers mean here, whether they are ordering the actors by popularity (as perceived by them), if alphabetically, or if by another method. 
 
 ## Distribution
 
