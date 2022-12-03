@@ -1,9 +1,10 @@
 ## What is the project?
-100 words to explain what your project is about to a general audience. 
+
+The "Movie-rating-prediction" project is designed to find a correlation between a set of variables that are common to films, and how these can impact the way they are critically received by a global audience.
 
 ## Data
 
-This project uses data acquired from the "IMDB 5000 Movie Dataset", which I accessed thorugh Kaggle (https://www.kaggle.com/datasets/carolzhangdc/imdb-5000-movie-dataset).
+This project uses data acquired from the "IMDB 5000 Movie Dataset", which I accessed through Kaggle (https://www.kaggle.com/datasets/carolzhangdc/imdb-5000-movie-dataset).
 
 The data is presented in a .csv file format and features the following instances:
 
@@ -38,7 +39,7 @@ The data is presented in a .csv file format and features the following instances
 
 ## Model
 
-I selected a k-nearest neighbors algorithm due to its high versatility, high accuracy, and, most importantly, how easy it is to interpret. 
+I selected a k-nearest neighbours algorithm due to its high versatility, high accuracy, and, most importantly, how easy it is to interpret. 
 
 ## Hyperparameter Optimisation
 
@@ -46,7 +47,7 @@ To optimise the performance of the model, I used the estimator, param_grid, and,
 
 ## Results
 
-To perform the evauation of the model, I used the RMSE of the model in each k iteration. The results were plotted on an elbow curve for a better interpretaion:
+To perform the evaluation of the model, I used the RMSE of the model in each k iteration. The results were plotted on an elbow curve for a better interpretation:
 
 ![plot elbow curve IMDB 5000](https://user-images.githubusercontent.com/114921311/205455038-16f90a27-b4e1-4c77-bc27-9fe08fcf7f13.png)
 
