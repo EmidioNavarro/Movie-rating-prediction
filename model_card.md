@@ -38,7 +38,7 @@ Outputs:
 
 ## Model architecture:
 
-The model implements a K-nearest neighbors algorithm that is optimised with grid search.
+The model implements a K-nearest neighbours algorithm that is optimised with grid search.
 
 ## Performance
 
