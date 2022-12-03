@@ -1,6 +1,6 @@
 # Inputs:
 
-**Instance - Number of samples**
+**Instance - Number of valid samples**
 
 - color                        - 5024
 - director_name                - 4939
@@ -34,16 +34,14 @@
 
 - imdb_score                   - 5043
 
-**Model Architecture:** Describe the model architecture you’ve used
+## Model architecture:
+
+The model implements a K-nearest neighbors algorithm that is optimised with grid search.
 
 ## Performance
 
-Give a summary graph or metrics of how the model performs. Remember to include how you are measuring the performance and what data you analysed it on. 
+RMSE is used to evaluate the model's performance. The results are plotted in an elbow curve.
 
 ## Limitations
 
-Outline the limitations of your model.
-
-## Trade-offs
-
-Outline any trade-offs of your model, such as any circumstances where the model exhibits performance issues. 
+The model struggles with very large datasets and in high dimensional spaces.
