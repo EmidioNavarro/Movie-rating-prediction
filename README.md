@@ -1,6 +1,6 @@
 ## What is the project?
 
-The "Movie-rating-prediction" project is designed to find a correlation between a set of variables that are common to films, and how these can impact the way they are critically received by a global audience.
+The "Movie-rating-prediction" project is designed to find a correlation between a set of variables that are common to films and how these can impact the way they are critically received by a global audience.
 
 ## Data
 
