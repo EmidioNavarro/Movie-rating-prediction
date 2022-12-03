@@ -11,7 +11,7 @@ The dataset was downloaded from Kaggle. It contains 28 variables for 5043 movies
 
 **Instances:**
 
-Instance - valid - invalid
+Instance - valid samples - invalid samples
 
 - color - 5024 - 19
 - director_name - 4939 - 104
