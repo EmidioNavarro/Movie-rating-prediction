@@ -1,43 +1,65 @@
-# Datasheet Template
-
-As far as you can, complete the model datasheet. If you have got the data from the internet, you may not have all the information you need, but make sure you include all the information you do have. 
-
 ## Motivation
 
-- For what purpose was the dataset created? 
-- Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?
+The creation of this dataset is attributed to Yueming Zhang. The motivation behind the development of this work is explained in the project report:
+
+"Based on the massive movie information, it would be interesting to understand what are the important factors that make a movie more successful than others. So, we would like to analyze what kind of movies are more successful, in other words, get higher IMDB score. We also want to show the results of this analysis in an intuitive way by visualizing outcome using ggplot2 in R.
 
  
 ## Composition
 
-- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? 
-- How many instances of each type are there? 
-- Is there any missing data?
-- Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
+The dataset was downloaded from Kaggle. It contains 28 variables for 5043 movies, spanning across 100 years in 66 countries. There are 2399 unique director names, and thousands of actors/actresses. “imdb_score” is the response variable while the other 27 variables are possible predictors.
+
+**Instances:**
+
+Instance - valid - invalid
+
+- color - 5024 - 19
+- director_name - 4939 - 104
+- num_critic_for_reviews - 4993 - 50
+- duration - 5028 - 15
+- director_facebook_likes - 4939 - 104
+- actor_3_facebook_likes - 5020 - 23
+- actor_2_name - 5030 - 13
+- actor_1_facebook_likes - 5036 - 7
+- gross - 4159 - 884
+- genres - 5043 - 0
+- actor_1_name - 5036 - 7
+- movie_title - 5043 - 0
+- num_voted_users - 5043 - 0
+- cast_total_facebook_likes - 5043 - 0
+- actor_3_name - 5020 - 23
+- facenumber_in_poster - 5030 - 13
+- plot_keywords - 4890 - 53
+- movie_imdb_link - 5043 - 0
+- num_user_for_reviews - 5022 - 21
+- language - 5031 - 12
+- country - 5038 - 5
+- content_rating - 4740 - 303
+- budget - 4551 - 492
+- title_year - 4935 - 108
+- actor_2_facebook_likes - 5030 - 13
+- aspect_ratio - 4714 - 329
+- movie_facebook_likes - 5043 - 0
+- imdb_score - 5043 - 0
+
+As can be observed from the above list, some variables have missing values.
+
+The data does not include any confidential information.
 
 ## Collection process
 
-- How was the data acquired? 
-- If the data is a sample of a larger subset, what was the sampling strategy? 
-- Over what time frame was the data collected?
+The data was acquired from two public sources; IMDB and Facebook.
 
-## Preprocessing/cleaning/labelling
-
-- Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section. 
-- Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
- 
 ## Uses
 
-- What other tasks could the dataset be used for? 
-- Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms? 
-- Are there tasks for which the dataset should not be used? If so, please provide a description.
+The dataset can be used by researchers looking to advance their understanding of how multiple variables can affect the way films are critically received by a global audience.
+
+There seems to be an dubious hierarchisation of actors in the following instances: "actor_1_facebook_likes", "actor_2_facebook_likes", "actor_3_facebook_likes", "actor_1_name", "actor_2_name", "actor_3_name". It is not clear what the numbers mean here, whether they are ordering the actors by popularity (as perceived by them), if alphabetically, or if by another method. 
 
 ## Distribution
 
-- How has the dataset already been distributed? 
-- Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?  
+The dataset has no copyright or intellectual property license associated to it.
 
 ## Maintenance
 
-- Who maintains the dataset?
-
+There is no mention of maintenance at source.
