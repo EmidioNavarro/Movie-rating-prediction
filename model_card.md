@@ -1,6 +1,6 @@
 # Inputs:
 
-- Instance - Number of samples
+**Instance - Number of samples**
 
 - color                        - 5024
 - director_name                - 4939
