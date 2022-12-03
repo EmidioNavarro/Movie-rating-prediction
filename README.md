@@ -1,24 +1,58 @@
-# PROJECT TITLE 
-
-
-## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
+## What is the project?
 100 words to explain what your project is about to a general audience. 
 
-## DATA
-A summary of the data you’re using, remembering to include where you got it and any relevant citations. 
+## Data
 
-## MODEL 
-A summary of the model you’re using and why you chose it. 
+This project uses data acquired from the "IMDB 5000 Movie Dataset", which I accessed thorugh Kaggle (https://www.kaggle.com/datasets/carolzhangdc/imdb-5000-movie-dataset).
 
-## HYPERPARAMETER OPTIMSATION
-Description of which hyperparameters you have and how you chose to optimise them. 
+The data is presented in a .csv file format and features the following instances:
 
-## RESULTS
-A summary of your results and what you can learn from your model 
+- color 
+- director_name 
+- num_critic_for_reviews 
+- duration 
+- director_facebook_likes 
+- actor_3_facebook_likes 
+- actor_2_name 
+- actor_1_facebook_likes 
+- gross 
+- genres 
+- actor_1_name 
+- movie_title 
+- num_voted_users 
+- cast_total_facebook_likes 
+- actor_3_name 
+- facenumber_in_poster 
+- plot_keywords 
+- movie_imdb_link 
+- num_user_for_reviews 
+- language 
+- country 
+- content_rating 
+- budget 
+- title_year 
+- actor_2_facebook_likes 
+- aspect_ratio 
+- movie_facebook_likes 
+- imdb_score 
 
-You can include images of plots using the code below:
-![Screenshot](image.png)
+## Model
 
-## (OPTIONAL: CONTACT DETAILS)
-If you are planning on making your github repo public you may wish to include some contact information such as a link to your twitter or an email address. 
+I selected a k-nearest neighbors algorithm due to its high versatility, high accuracy, and, most importantly, how easy it is to interpret. 
+
+## Hyperparameter Optimisation
+
+To optimise the performance of the model, I used the estimator, param_grid, and, cv, hyperparameters of grid search.
+
+## Results
+
+To perform the evauation of the model, I used the RMSE of the model in each k iteration. The results were plotted on an elbow curve for a better interpretaion:
+
+![plot elbow curve IMDB 5000](https://user-images.githubusercontent.com/114921311/205455038-16f90a27-b4e1-4c77-bc27-9fe08fcf7f13.png)
+
+Here we can see that the best result was achieved in between k-7 and k-9.
+
+## Contact details
+
+Email: emidioxcmnavarro@gmail.com
 
